@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devkaneki Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho com Navegação e Hero -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+      <h1>Bem-vindo ao Meu Portfólio</h1>
+      <p>Sou desenvolvedor de aplicações web e de programas para desktop.| Criativo &amp; Inovador</p>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main>
+    <!-- Seção Sobre -->
+    <section id="about">
+      <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor apaixonado por tecnologia e inovação. Me chamo Gustavo, Tenho experiência em HTML, CSS, JavaScript, Python e outras tecnologias modernas. Meu objetivo é criar aplicações que despertem o interesse dos usuários.</p>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+          <div class="project-item">
+            <img src="snake.png" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>A aplicação web "Snake The Game" é uma releitura digital do clássico jogo da cobrinha, oferecendo uma experiência simples e envolvente diretamente no navegador. A interface minimalista apresenta o título do jogo e uma exibição em tempo real da pontuação, permitindo que os jogadores acompanhem seu desempenho enquanto controlam a cobra utilizando as teclas direcionais do teclado (↑, ↓, ←, →).
+
+              O objetivo principal do jogo é coletar os itens que aparecem na tela, fazendo com que a cobra cresça a cada novo alimento consumido, enquanto se evita colisões tanto com as bordas da área de jogo quanto com o próprio corpo. Essa dinâmica clássica promove um equilíbrio entre estratégia e reflexos, desafiando os usuários a superarem seus próprios recordes.
+              
+              Desenvolvido com tecnologias web, a aplicação garante compatibilidade e responsividade em diferentes dispositivos, proporcionando uma experiência lúdica e nostálgica, ideal para aqueles que apreciam desafios rápidos e divertidos.</p>
+          </div>
+          <div class="project-item">
+            <img src="avance.png" alt="Projeto Avacnce junior ">
+            <h3>Projeto 2</h3>
+            <p>O Projeto Avance Júnior é uma iniciativa de consultoria júnior da UEMG, concebida para integrar e aplicar conhecimentos acadêmicos em um ambiente prático e inovador. Desenvolvido originalmente como um trabalho de extensão, o projeto teve como objetivo principal a criação de um website que servisse como ferramenta de comunicação e interação para toda a comunidade universitária.
+
+              O site foi continuamente aprimorado ao longo do tempo, incorporando feedbacks e novas tecnologias para atender de forma mais eficiente às demandas dos usuários. Essa evolução constante reflete o compromisso com a excelência, a inovação e o desenvolvimento profissional dos estudantes envolvidos, que puderam colocar em prática habilidades em áreas como tecnologia, design e gestão de projetos.
+              
+              Em resumo, o Projeto Avance Júnior destaca-se não só pelo seu papel transformador na experiência acadêmica, mas também por consolidar uma cultura de consultoria júnior que estimula o aprendizado prático e a integração entre teoria e prática, fortalecendo a formação dos futuros profissionais da UEMG.</p>
+          </div>
+          <div class="project-item">
+            <img src="ponto.png" alt="Projeto Ponto">
+            <h3>Projeto 3</h3>
+            <p>Este projeto é um sistema de marcação de ponto desenvolvido em Python, utilizando o framework Kivy para criar uma interface gráfica moderna e intuitiva. O aplicativo permite que os usuários realizem operações básicas de registro de ponto</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <form action="https://formspree.io/f/xkgodbkp" method="POST">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          
+          <label for="email">Email:</label>
+          <!-- Use o nome _replyto para que o Formspree saiba qual e-mail responder -->
+          <input type="email" id="email" name="_replyto" placeholder="Seu email" required>
+          
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  <!-- Rodapé -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Devkaneki. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
