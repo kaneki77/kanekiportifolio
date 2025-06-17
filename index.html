@@ -1,94 +1,92 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Devkaneki Portfólio</title>
+  <title>Kaneki Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- Cabeçalho com Navegação e Hero -->
   <header>
+    <h1>▶ KANEKI'S QUEST ◀</h1>
     <nav>
-      <ul>
-        <li><a href="#home">Início</a></li>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
+      <a href="#inicio">Start</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#skills">Skills</a>
+      <a href="#contato">Contato</a>
     </nav>
-    <div class="hero" id="home">
-      <h1>Bem-vindo ao Meu Portfólio</h1>
-      <p>Sou desenvolvedor de aplicações web e de programas para desktop.| Criativo &amp; Inovador</p>
-    </div>
   </header>
 
-  <!-- Conteúdo Principal -->
-  <main>
-    <!-- Seção Sobre -->
-    <section id="about">
-      <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia e inovação. Me chamo Gustavo, Tenho experiência em HTML, CSS, JavaScript, Python e outras tecnologias modernas. Meu objetivo é criar aplicações que despertem o interesse dos usuários.</p>
+  <section id="inicio">
+    <h2>Pressione Start para começar</h2>
+    <p>Bem-vindo(a) ao meu portfólio no estilo de 8-bits. Aqui você encontrará minhas skills, projetos e aventuras no mundo da programação.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Level 1: Sobre Mim</h2>
+    <p>Sou Kaneki, programador full stack, apaixonado por tecnologia, retro games e criatividade aplicada em código.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Level 2: Missões Concluídas</h2>
+    <div class="projetos-grid">
+      <div class="projeto">
+        <h3>🔧 Sistema de Marcação de Ponto</h3>
+        <p>App em Python com Kivy, SQLite e integração Firebase. Registro de entrada, saída e exportação em Excel.</p>
+        <a href="https://github.com/kaneki77/app_marcacao_ponto" target="_blank">Ver Projeto</a>
       </div>
-    </section>
 
-    <!-- Seção Projetos -->
-    <section id="projects">
-      <div class="container">
-        <h2>Projetos</h2>
-        <div class="projects-grid">
-          <div class="project-item">
-            <img src="snake.png" alt="Projeto 1">
-            <h3>Projeto 1</h3>
-            <p>A aplicação web "Snake The Game" é uma releitura digital do clássico jogo da cobrinha, oferecendo uma experiência simples e envolvente diretamente no navegador. A interface minimalista apresenta o título do jogo e uma exibição em tempo real da pontuação, permitindo que os jogadores acompanhem seu desempenho enquanto controlam a cobra utilizando as teclas direcionais do teclado (↑, ↓, ←, →).
-
-              O objetivo principal do jogo é coletar os itens que aparecem na tela, fazendo com que a cobra cresça a cada novo alimento consumido, enquanto se evita colisões tanto com as bordas da área de jogo quanto com o próprio corpo. Essa dinâmica clássica promove um equilíbrio entre estratégia e reflexos, desafiando os usuários a superarem seus próprios recordes.
-              
-              Desenvolvido com tecnologias web, a aplicação garante compatibilidade e responsividade em diferentes dispositivos, proporcionando uma experiência lúdica e nostálgica, ideal para aqueles que apreciam desafios rápidos e divertidos.</p>
-          </div>
-          <div class="project-item">
-            <img src="avance.png" alt="Projeto Avacnce junior ">
-            <h3>Projeto 2</h3>
-            <p>O Projeto Avance Júnior é uma iniciativa de consultoria júnior da UEMG, concebida para integrar e aplicar conhecimentos acadêmicos em um ambiente prático e inovador. Desenvolvido originalmente como um trabalho de extensão, o projeto teve como objetivo principal a criação de um website que servisse como ferramenta de comunicação e interação para toda a comunidade universitária.
-
-              O site foi continuamente aprimorado ao longo do tempo, incorporando feedbacks e novas tecnologias para atender de forma mais eficiente às demandas dos usuários. Essa evolução constante reflete o compromisso com a excelência, a inovação e o desenvolvimento profissional dos estudantes envolvidos, que puderam colocar em prática habilidades em áreas como tecnologia, design e gestão de projetos.
-              
-              Em resumo, o Projeto Avance Júnior destaca-se não só pelo seu papel transformador na experiência acadêmica, mas também por consolidar uma cultura de consultoria júnior que estimula o aprendizado prático e a integração entre teoria e prática, fortalecendo a formação dos futuros profissionais da UEMG.</p>
-          </div>
-          <div class="project-item">
-            <img src="ponto.png" alt="Projeto Ponto">
-            <h3>Projeto 3</h3>
-            <p>Este projeto é um sistema de marcação de ponto desenvolvido em Python, utilizando o framework Kivy para criar uma interface gráfica moderna e intuitiva. O aplicativo permite que os usuários realizem operações básicas de registro de ponto</p>
-          </div>
-        </div>
+      <div class="projeto">
+        <h3>🗺️ Simulação de Redes - Packet Tracer</h3>
+        <p>Topologia avançada com roteadores, switches e servidores DNS configurados via CLI simulando redes industriais.</p>
+        <a href="https://github.com/kaneki77/simulacao-redes" target="_blank">Ver Projeto</a>
       </div>
-    </section>
 
-    <!-- Seção Contato -->
-    <section id="contact">
-      <div class="container">
-        <h2>Contato</h2>
-        <form action="https://formspree.io/f/xkgodbkp" method="POST">
-          <label for="name">Nome:</label>
-          <input type="text" id="name" name="name" placeholder="Seu nome" required>
-          
-          <label for="email">Email:</label>
-          <!-- Use o nome _replyto para que o Formspree saiba qual e-mail responder -->
-          <input type="email" id="email" name="_replyto" placeholder="Seu email" required>
-          
-          <label for="message">Mensagem:</label>
-          <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
-          
-          <button type="submit">Enviar</button>
-        </form>
+      <div class="projeto">
+        <h3>📂 Site SharePoint - Instrumentação</h3>
+        <p>Portal corporativo no SharePoint para integração entre turnos e publicação de documentos e cronogramas.</p>
+        <a href="https://kaneki77.github.io/sharepoint-projeto" target="_blank">Ver Projeto</a>
       </div>
-    </section>
-  <!-- Rodapé -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Devkaneki. Todos os direitos reservados.</p>
     </div>
+  </section>
+
+  <section id="skills">
+    <h2>Inventário: Skills Desbloqueadas</h2>
+    <ul>
+      <li>💻 HTML & CSS - 100%</li>
+      <li>⚙️ JavaScript - 90%</li>
+      <li>🚀 Node.js & APIs - 85%</li>
+      <li>🖥️ React - 80%</li>
+      <li>📡 Firebase & Supabase - 75%</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Missão Final: Contato</h2>
+    <form action="https://formspree.io/f/{seu_id_aqui}" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+
+    <div class="social-links">
+      <a href="https://github.com/kaneki77" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/seu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 - Kaneki | A vida é um game esoclha sua maneira de jogar! 🎮</p>
   </footer>
 </body>
 </html>
