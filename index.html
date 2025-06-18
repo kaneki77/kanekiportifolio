@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio | Kaneki</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Gustavo Moura</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <h1>Kaneki</h1>
-      <nav>
-        <ul class="nav-links">
+    <div class="container header-content">
+      <div class="logo">Kaneki<span>.</span></div>
+      <nav class="nav">
+        <ul>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -21,28 +21,26 @@
   </header>
 
   <section class="hero">
-    <div class="container">
-      <h2>Desenvolvedor & Estagiário em Automação Industrial</h2>
-      <p>Transformando ideias em soluções digitais e industriais.</p>
+    <div class="container hero-content">
+      <h1><span>Gustavo Moura</span></h1>
+      <p>Automação Industrial, IoT & Desenvolvimento Web</p>
       <a href="#projetos" class="btn">Ver Projetos</a>
     </div>
   </section>
 
   <section id="projetos" class="projetos">
     <div class="container">
-      <h2>Projetos</h2>
-
+      <h2 class="section-title">Projetos em Destaque</h2>
       <div class="grid-projetos">
-        <div class="projeto">
+        <div class="projeto-card">
           <h3>Usina Pixelada</h3>
-          <p>Simulador de Controle de Válvulas desenvolvido em Flask + HTML/CSS + JS.</p>
-          <a href="https://github.com/kaneki77/Usina-Pixelada" target="_blank" class="btn">Ver no GitHub</a>
+          <p>Simulador interativo de controle de válvulas em plantas industriais. Integração com IoT, Flask e web moderna.</p>
+          <a href="https://github.com/kaneki77/Usina-Pixelada" target="_blank" class="btn">Ver Projeto</a>
         </div>
-
-        <div class="projeto">
-          <h3>Outro Projeto</h3>
-          <p>Adicione aqui outro projeto que você queira destacar.</p>
-          <a href="#" class="btn">Em breve</a>
+        <div class="projeto-card">
+          <h3>Painel IoT (Instrumentação Virtual)</h3>
+          <p>Interface virtual conectada a sensores reais via protocolo MQTT e integração com banco de dados online.</p>
+          <a href="#" class="btn disabled">Em breve</a>
         </div>
       </div>
     </div>
@@ -50,24 +48,26 @@
 
   <section id="sobre" class="sobre">
     <div class="container">
-      <h2>Sobre mim</h2>
-      <p>Sou Gustavo (Kaneki), estagiário de Instrumentação e Automação Industrial. Desenvolvo projetos que conectam tecnologia e processos industriais, com foco em automação, IoT e aplicações web.</p>
+      <h2 class="section-title">Sobre mim</h2>
+      <p>Estagiário em Instrumentação e Automação Industrial na Usina Coruripe, apaixonado por tecnologia, automação e desenvolvimento web. Busco unir soluções digitais à indústria com foco em eficiência e inovação.</p>
     </div>
   </section>
 
   <section id="contato" class="contato">
     <div class="container">
-      <h2>Contato</h2>
-      <div class="icones-redes">
-        <a href="https://www.linkedin.com/in/gustavo-moura-carvalho-bab964366/" target="_blank">LinkedIn</a>
-        <a href="https://instagram.com/seuusuario" target="_blank">Instagram</a>
-        <a href="mailto:seuemail@gmail.com">E-mail</a>
+      <h2 class="section-title">Contato</h2>
+      <div class="contato-links">
+        <a href="https://www.linkedin.com/in/gustavo-moura-carvalho-bab964366/" target="_blank"><img src="assets/icons/linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://instagram.com/guuh.kaneki" target="_blank"><img src="assets/icons/insta.png" alt="Instagram" /></a>
+        <a href="mailto:gustavogtavb45@gmail.com"><img src="assets/icons/gmail.png" alt="E-mail" /></a>
       </div>
     </div>
   </section>
 
   <footer class="footer">
-    <p>&copy; 2025 Kaneki. Todos os direitos reservados.</p>
+    <div class="container">
+      <p>&copy; 2025 Gustavo Moura | Todos os direitos reservados.</p>
+    </div>
   </footer>
 </body>
 </html>
