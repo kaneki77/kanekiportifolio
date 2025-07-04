@@ -3,28 +3,145 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Gustavo Moura - Especialista em Automação Industrial, IoT e Desenvolvimento Web. Estagiário na Usina Coruripe." />
+  <meta name="keywords" content="automação industrial, IoT, desenvolvimento web, instrumentação, Python, Flask, MQTT" />
+  <meta name="author" content="Gustavo Moura" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:title" content="Portfólio | Gustavo Moura" />
+  <meta property="og:description" content="Especialista em Automação Industrial, IoT e Desenvolvimento Web" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Portfólio | Gustavo Moura" />
+  <meta property="twitter:description" content="Especialista em Automação Industrial, IoT e Desenvolvimento Web" />
+  
   <title>Portfólio | Gustavo Moura</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 </head>
 <body>
   <header class="header">
     <div class="container header-content">
       <div class="logo">Kaneki<span>.</span></div>
-      <nav class="nav">
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
         <ul>
-          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#inicio">Início</a></li>
           <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
+  <section id="inicio" class="hero">
     <div class="container hero-content">
       <h1><span>Gustavo Moura</span></h1>
-      <p>Automação Industrial, IoT & Desenvolvimento Web</p>
-      <a href="#projetos" class="btn">Ver Projetos</a>
+      <p>Especialista em Automação Industrial, IoT & Desenvolvimento Web</p>
+      <p class="hero-subtitle">Transformando processos industriais através da tecnologia</p>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn">Ver Projetos</a>
+        <a href="#contato" class="btn btn-outline">Entre em Contato</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre mim</h2>
+      <div class="sobre-content">
+        <div class="sobre-text">
+          <p>Sou estagiário em Instrumentação e Automação Industrial na Usina Coruripe, apaixonado por tecnologia e inovação. Minha missão é unir soluções digitais modernas aos processos industriais, criando sistemas mais eficientes, seguros e inteligentes.</p>
+          
+          <p>Com experiência em desenvolvimento web e conhecimento profundo em automação industrial, trabalho na intersecção entre o mundo digital e os processos físicos, desenvolvendo soluções que otimizam operações e geram valor real para a indústria.</p>
+          
+          <p>Acredito que a transformação digital na indústria não é apenas sobre tecnologia, mas sobre pessoas e processos trabalhando em harmonia para criar um futuro mais sustentável e eficiente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="habilidades">
+    <div class="container">
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <div class="habilidades-grid">
+        <div class="habilidade-categoria">
+          <h3>Automação Industrial</h3>
+          <div class="habilidades-lista">
+            <div class="habilidade-item">
+              <span class="habilidade-nome">Instrumentação</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">Controle de Processos</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">SCADA</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="habilidade-categoria">
+          <h3>IoT & Conectividade</h3>
+          <div class="habilidades-lista">
+            <div class="habilidade-item">
+              <span class="habilidade-nome">MQTT</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">Sensores IoT</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">Edge Computing</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="habilidade-categoria">
+          <h3>Desenvolvimento Web</h3>
+          <div class="habilidades-lista">
+            <div class="habilidade-item">
+              <span class="habilidade-nome">Python/Flask</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 88%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">JavaScript</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 82%"></div>
+              </div>
+            </div>
+            <div class="habilidade-item">
+              <span class="habilidade-nome">HTML/CSS</span>
+              <div class="habilidade-barra">
+                <div class="habilidade-progresso" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -33,33 +150,176 @@
       <h2 class="section-title">Projetos em Destaque</h2>
       <div class="grid-projetos">
         <div class="projeto-card">
-          <h3>Usina Pixelada</h3>
-          <p>Simulador interativo de controle de válvulas em plantas industriais. Integração com IoT, Flask e web moderna.</p>
-          <a href="https://github.com/kaneki77/Usina-Pixelada" target="_blank" class="btn">Ver Projeto</a>
+          <div class="projeto-header">
+            <h3>Usina Pixelada</h3>
+            <div class="projeto-tags">
+              <span class="tag">Flask</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <p>Simulador interativo de controle de válvulas em plantas industriais. Sistema completo com integração IoT, interface web moderna e controle em tempo real de processos industriais.</p>
+          <div class="projeto-features">
+            <ul>
+              <li>Interface web responsiva</li>
+              <li>Controle de válvulas em tempo real</li>
+              <li>Monitoramento de sensores</li>
+              <li>Dashboard analítico</li>
+            </ul>
+          </div>
+          <div class="projeto-actions">
+            <a href="https://github.com/kaneki77/Usina-Pixelada" target="_blank" class="btn">Ver Código</a>
+            <a href="#" class="btn btn-outline">Demo Live</a>
+          </div>
         </div>
+        
         <div class="projeto-card">
-          <h3>Painel IoT (Instrumentação Virtual)</h3>
-          <p>Interface virtual conectada a sensores reais via protocolo MQTT e integração com banco de dados online.</p>
-          <a href="#" class="btn disabled">Em breve</a>
+          <div class="projeto-header">
+            <h3>Painel IoT - Instrumentação Virtual</h3>
+            <div class="projeto-tags">
+              <span class="tag">MQTT</span>
+              <span class="tag">Real-time</span>
+              <span class="tag">Database</span>
+            </div>
+          </div>
+          <p>Interface virtual conectada a sensores reais via protocolo MQTT. Sistema de monitoramento industrial com integração a banco de dados online e visualização de dados em tempo real.</p>
+          <div class="projeto-features">
+            <ul>
+              <li>Comunicação MQTT</li>
+              <li>Banco de dados em nuvem</li>
+              <li>Alertas automáticos</li>
+              <li>Histórico de dados</li>
+            </ul>
+          </div>
+          <div class="projeto-actions">
+            <a href="#" class="btn disabled">Em Desenvolvimento</a>
+          </div>
+        </div>
+        
+        <div class="projeto-card">
+          <div class="projeto-header">
+            <h3>Sistema de Monitoramento Industrial</h3>
+            <div class="projeto-tags">
+              <span class="tag">SCADA</span>
+              <span class="tag">Analytics</span>
+              <span class="tag">API</span>
+            </div>
+          </div>
+          <p>Plataforma completa para monitoramento de equipamentos industriais com análise preditiva, alertas inteligentes e integração com sistemas existentes.</p>
+          <div class="projeto-features">
+            <ul>
+              <li>Análise preditiva</li>
+              <li>Alertas inteligentes</li>
+              <li>API RESTful</li>
+              <li>Relatórios automáticos</li>
+            </ul>
+          </div>
+          <div class="projeto-actions">
+            <a href="#" class="btn disabled">Em Planejamento</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="sobre" class="sobre">
+  <section id="experiencia" class="experiencia">
     <div class="container">
-      <h2 class="section-title">Sobre mim</h2>
-      <p>Estagiário em Instrumentação e Automação Industrial na Usina Coruripe, apaixonado por tecnologia, automação e desenvolvimento web. Busco unir soluções digitais à indústria com foco em eficiência e inovação.</p>
+      <h2 class="section-title">Experiência Profissional</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Estagiário em Instrumentação e Automação</h3>
+            <h4>Usina Coruripe</h4>
+            <span class="timeline-date">2024 - Presente</span>
+            <p>Desenvolvimento e manutenção de sistemas de instrumentação industrial. Trabalho com sensores, controladores e sistemas SCADA para otimização de processos produtivos.</p>
+            <ul class="timeline-achievements">
+              <li>Implementação de melhorias em sistemas de controle</li>
+              <li>Desenvolvimento de interfaces de monitoramento</li>
+              <li>Análise de dados de processo para otimização</li>
+              <li>Suporte técnico em instrumentação</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Desenvolvedor Web Freelancer</h3>
+            <h4>Projetos Independentes</h4>
+            <span class="timeline-date">2023 - Presente</span>
+            <p>Desenvolvimento de aplicações web com foco em soluções industriais e IoT. Criação de dashboards, sistemas de monitoramento e interfaces para controle de processos.</p>
+            <ul class="timeline-achievements">
+              <li>Desenvolvimento de aplicações Flask</li>
+              <li>Integração com protocolos industriais</li>
+              <li>Criação de dashboards interativos</li>
+              <li>Implementação de sistemas IoT</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="contato" class="contato">
     <div class="container">
-      <h2 class="section-title">Contato</h2>
+      <h2 class="section-title">Vamos Conversar?</h2>
+      <p class="contato-description">Interessado em automação industrial, IoT ou desenvolvimento web? Entre em contato comigo!</p>
+      
+      <div class="contato-grid">
+        <div class="contato-info">
+          <h3>Informações de Contato</h3>
+          <div class="contato-item">
+            <strong>Email:</strong>
+            <a href="mailto:gustavogtavb45@gmail.com">gustavogtavb45@gmail.com</a>
+          </div>
+          <div class="contato-item">
+            <strong>Localização:</strong>
+            <span>Alagoas, Brasil</span>
+          </div>
+          <div class="contato-item">
+            <strong>Disponibilidade:</strong>
+            <span>Aberto para oportunidades</span>
+          </div>
+        </div>
+        
+        <div class="contato-form">
+          <h3>Envie uma Mensagem</h3>
+          <form class="form" action="#" method="POST">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <input type="text" id="assunto" name="assunto" required>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+      
       <div class="contato-links">
-        <a href="https://www.linkedin.com/in/gustavo-moura-carvalho-bab964366/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
-        <a href="https://instagram.com/guuh.kaneki" target="_blank"><img src="assets/insta.png" alt="Instagram" /></a>
-        <a href="mailto:gustavogtavb45@gmail.com"><img src="assets/gmail.png" alt="E-mail" /></a>
+        <a href="https://www.linkedin.com/in/gustavo-moura-carvalho-bab964366/" target="_blank" aria-label="LinkedIn">
+          <img src="assets/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://instagram.com/guuh.kaneki" target="_blank" aria-label="Instagram">
+          <img src="assets/insta.png" alt="Instagram" />
+        </a>
+        <a href="mailto:gustavogtavb45@gmail.com" aria-label="Email">
+          <img src="assets/gmail.png" alt="E-mail" />
+        </a>
+        <a href="https://github.com/kaneki77" target="_blank" aria-label="GitHub">
+          <img src="assets/github.png" alt="GitHub" />
+        </a>
       </div>
     </div>
   </section>
@@ -67,7 +327,11 @@
   <footer class="footer">
     <div class="container">
       <p>&copy; 2025 Gustavo Moura | Todos os direitos reservados.</p>
+      <p>Desenvolvido com 💙 e muito café</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
