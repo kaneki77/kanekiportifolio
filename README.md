@@ -1,4 +1,4 @@
-# 🚀 Portfólio de Kaneki - Programação, Automação e Inovação
+# 🚀 Portfólio de Gustavo Moura (Kaneki) - Programação, Automação e Inovação
 
 > **Criando o futuro da tecnologia com código e automação inteligente.**  
 > Bem-vindo ao meu espaço digital, onde programação se conecta com automação industrial e tecnologias disruptivas.
