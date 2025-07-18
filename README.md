@@ -7,7 +7,7 @@
 
 ## 👨‍💻 Sobre mim
 
-Eu sou o **Kaneki**, estagiário em Instrumentação e Automação Industrial, apaixonado por unir programação e controle industrial para transformar processos e criar soluções inovadoras.
+Eu sou o **Gustavo Moura**, estagiário em Instrumentação e Automação Industrial, apaixonado por unir programação e controle industrial para transformar processos e criar soluções inovadoras.
 
 - 🔧 Linguagens e tecnologias: Python, C#, Flask, Kivy, SQLite, Firebase, HTML/CSS/JS  
 - ⚙️ Prática em programação de SFC (Sequential Function Charts) com tecnologia IO-Link para automação avançada  
