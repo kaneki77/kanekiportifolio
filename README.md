@@ -7,12 +7,13 @@
 
 ## 👨‍💻 Sobre mim
 
-Eu sou o **Gustavo Moura**, estagiário em Instrumentação e Automação Industrial na Usina Coruripe, apaixonado por unir programação e controle industrial para transformar processos e criar soluções inovadoras.
+Eu sou o **Gustavo Moura**, freelancer em Desenvolvimento Web e Automação Industrial, apaixonado por unir programação e controle industrial para transformar processos e criar soluções inovadoras. Com experiência adquirida como estagiário em Instrumentação e Automação na Usina Coruripe, atuo atualmente de forma independente desenvolvendo soluções que conectam o mundo digital aos processos físicos.
 
 - 🔧 **Linguagens e tecnologias:** Python, C#, Flask, Kivy, SQLite, Firebase, HTML/CSS/JS  
 - ⚙️ **Prática em programação:** SFC (Sequential Function Charts) com tecnologia IO-Link para automação avançada  
 - 🌐 **Desenvolvimento:** Backend e frontend, integração com bancos de dados e interfaces intuitivas   
 - 💡 **Foco:** IoT, automação inteligente e simulação de controle industrial
+- 🎓 **Formação:** Bacharelado em Sistemas de Informação — UEMG (cursando, 5º período)
 
 ---
 
@@ -30,7 +31,7 @@ Eu sou o **Gustavo Moura**, estagiário em Instrumentação e Automação Indust
 3. **Habilidades:** Cards organizados por categoria (Automação, IoT, Desenvolvimento)
 4. **Projetos:** Showcase dos principais projetos com links
 5. **Portfólio:** Galeria de fotos e vídeos dos trabalhos realizados ⭐
-6. **Experiência:** Timeline profissional
+6. **Experiência:** Timeline profissional e formação acadêmica
 7. **Contato:** Informações de contato e redes sociais
 
 ### Galeria de Portfólio (Novo!)
